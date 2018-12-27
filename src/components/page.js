@@ -9,6 +9,7 @@ import LanguageService from "../services/LanguageService";
 
 import Home from "../templates/home";
 import Page404 from "../templates/404";
+import Login from "../templates/login";
 
 import Header from '../components/organismes/header.js';
 import Footer from '../components/organismes/footer.js';
@@ -28,6 +29,7 @@ class Page extends Component {
                     <main className="main">
                         <Route exact path={'/' + LanguageService.lang + '/'} component={Home} />
                         <Route exact path={'/' + LanguageService.lang + '/404'} component={Page404} />
+                        <Route exact path={'/' + LanguageService.lang + '/login'} component={Login} />
                     </main>
                 </div>
             <Footer />

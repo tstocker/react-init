@@ -28,3 +28,14 @@ Start dev application
 ```bash
 yarn start
 ```
+
+### Translation 
+
+For translation i use [react-i18nify](https://github.com/JSxMachina/react-i18nify) please look official website to learn more about this plugin.
+
+### New page 
+
+create a page template like you will create a component for react.
+and declare in `src/components/page.js`
+
+See `src/tempaltes/home.js`,  `src/tempaltes/404.js` for exemples
